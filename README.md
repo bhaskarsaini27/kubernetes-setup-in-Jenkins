@@ -36,6 +36,8 @@ Kubernetes plugin — This plugin integrates Jenkins with Kubernetes
    
    5b) Use Kubernetes Id(my_kubernetes) which was created earlier and secret cert key , the output of last command.
    ![minikube-jenkins-3](https://github.com/bhaskarsaini27/kubernetes-setup-in-Jenkins/assets/103110177/1e8de5f2-0d17-4cda-8d73-42b396a13576)
+   
    5c) setfacl -d -m u:jenkins:rwx $HOME/.minikube
+   
    5d) setfacl -d -m g:jenkins:rwx $HOME/.minikube
 
