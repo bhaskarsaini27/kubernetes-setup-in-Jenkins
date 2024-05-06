@@ -23,3 +23,15 @@ Kubernetes plugin — This plugin integrates Jenkins with Kubernetes
 
 4. Save DockerHub credentials in a Jenkins
    ![minikube-jenkins-2](https://github.com/bhaskarsaini27/kubernetes-setup-in-Jenkins/assets/103110177/40957950-9380-4730-b1ab-4a93e9806f77)
+
+5. Configuring Kubernetes plugin
+
+   Jenkins — manage Jenkins — Manage Nodes & Clouds
+
+   Configure system scroll to bottom and in Add a new cloud, select Kubernetes
+
+   Convert certificate info into base64 encoding and paste it in a field ( Kubernetes server certificate key)
+   5a) cat $HOME/.minikube/ca.crt | base64 -w 0; echo
+   5b) Use Kubernetes Id(my_kubernetes) which was crated earlier.
+   ![minikube-jenkins-3](https://github.com/bhaskarsaini27/kubernetes-setup-in-Jenkins/assets/103110177/1e8de5f2-0d17-4cda-8d73-42b396a13576)
+
