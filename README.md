@@ -1,5 +1,5 @@
 # kubernetes-setup-in-Jenkins
-Minikube
+
 Minikube enables you to run a Kubernetes cluster locally on your machine.
 
 Jenkins is an open-source automation tool for Continuous Integration (CI) and Continuous Deployment (CD).
